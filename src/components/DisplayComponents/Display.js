@@ -4,3 +4,4 @@ const Display = () => {
   const [displayState, setDisplayState]= useState(0);
   return  (<div className ='display'><span>{displayState}</span></div>);
 };
+export default Display;
